@@ -6,12 +6,12 @@ const Achievements = () => {
     <Row style={{ justifyContent: "center", paddingBottom: "50px", marginTop: "50px" }}>
       <Col md={6} className="achievement-card">
         <h2 style={{ fontSize: "1.5rem", fontWeight: "bold", color: "white" }}>
-          🥈 Runner-up in Virtosic 2k25 Project Competitions
+          🥈 Runner-up in Virtuosic 2k25 Project Exhibition
         </h2>
       </Col>
       <Col md={6} className="achievement-card">
         <h2 style={{ fontSize: "1.5rem", fontWeight: "bold", color: "white" }}>
-          🥉 Third Prize in Paper Evolution - Virtosic 2k25
+          🥉 Third Prize in Paper Evolution - Virtuosic 2k25
         </h2>
       </Col>
     </Row>
