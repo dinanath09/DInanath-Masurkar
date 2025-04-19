@@ -1,0 +1,41 @@
+.toolstack-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.highlight {
+    color: #00bcd4;
+}
+
+.tech-icons {
+    margin-bottom: 30px;
+}
+
+.tech-icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: #444;
+}
+
+.tech-icon-wrapper svg {
+    font-size: 3rem;
+    transition: transform 0.3s ease;
+}
+
+.tech-icon-wrapper:hover {
+    transform: scale(1.2);
+    color: #00bcd4;
+}
+
+.tech-name {
+    margin-top: 8px;
+    font-size: 0.9rem;
+}

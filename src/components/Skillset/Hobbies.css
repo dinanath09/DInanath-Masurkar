@@ -1,0 +1,92 @@
+/* Style for each hobby card */
+.hobby-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Hover effects for each hobby card */
+  .hobby-card:hover {
+    transform: translateY(-10px) scale(1.05); /* Lift and slightly enlarge the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Bigger shadow */
+  }
+  
+  /* Style for the hobby icons */
+  .hobby-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect for icons */
+  .hobby-card:hover .hobby-icon {
+    transform: scale(1.2); /* Enlarge the icon when hovered */
+    color: #ff5722; /* Change icon color on hover */
+  }
+  
+  /* Style for hobby titles */
+  .hobby-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effect for hobby titles */
+  .hobby-card:hover .hobby-title {
+    color: #3498db; /* Change text color on hover */
+    transform: translateY(-5px); /* Slightly move the title upwards */
+  }
+  
+  /* Add animation for initial card load */
+  .hobby-card {
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-out forwards;
+    animation-delay: 0.3s; /* Delay for smooth staggered animation */
+  }
+  
+  .hobby-card:nth-child(1) {
+    animation-delay: 0.5s; /* Delay for staggered effect */
+  }
+  
+  .hobby-card:nth-child(2) {
+    animation-delay: 0.6s;
+  }
+  
+  .hobby-card:nth-child(3) {
+    animation-delay: 0.7s;
+  }
+  
+  .hobby-card:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  
+  .hobby-card:nth-child(5) {
+    animation-delay: 0.9s;
+  }
+  
+  /* Keyframe for fade-in and upward animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

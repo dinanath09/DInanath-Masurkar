@@ -1,0 +1,37 @@
+.cert-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .cert-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .highlight {
+    color: #aa00ff;
+  }
+  
+  .cert-card {
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(100, 100, 255, 0.1);
+    transition: transform 0.3s ease;
+    color: white;
+  }
+  
+  .cert-card:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .cert-icon {
+    font-size: 3rem;
+    color: #00bcd4;
+    margin-bottom: 15px;
+  }
+
+  
